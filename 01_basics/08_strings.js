@@ -46,4 +46,13 @@ console.log(url.includes("Gudakesh"));
 console.log(gameName.split("-"));
 
 
+const sentence = "The quick brown fox jumps over the lazy dog"
+
+let index = 5
+
+console.log(`An index of ${index} returns the character ${sentence[index]}`)
+
+index = -4
+
+console.log(`An index of ${index} returns the character ${sentence[index]}`)
 
